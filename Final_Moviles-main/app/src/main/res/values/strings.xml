@@ -1,0 +1,68 @@
+<resources>
+    <!-- Splash -->
+    <string name="app_name">Calendario</string>
+    <string name="calendario">My Calendario</string>
+
+    <!-- Main -->
+    <string name="login">Login</string>
+    <string name="registro">Registro</string>
+    <string name="volver">Volver</string>
+
+    <!-- Login -->
+    <string name="correoLogin">Correo</string>
+    <string name="contrasenaLogin">Contraseña</string>
+    <string name="iniciar">Iniciar Sesion</string>
+    <string name="newUser">¿No tienes cuenta?. Registrate</string>
+
+
+    <!-- Registro -->
+    <string name="nombreRegistro">Nombres</string>
+    <string name="correo">Correo Electronico</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="confirmarContrasena">Confirmar Contraseña</string>
+    <string name="registrar">Registrar</string>
+    <string name="tengoCuenta">Ya tengo una cuenta</string>
+
+    <!-- Menu Principal -->
+    <string name="menu">Menu Principal</string>
+    <string name="cerrarSesion">Salir</string>
+    <string name="bienvenido">Bienvenido(a)</string>
+    <string name="nombrePrincipal">--</string>
+    <string name="correoPrincipal">--</string>
+
+    <string name="agregarNota">Agregar</string>
+    <string name="listarNota">Listar</string>
+    <string name="archivados">Archivados</string>
+    <string name="perfil">Mi Perfil</string>
+    <string name="aboutUs">Acerca De</string>
+
+    <!-- Agregar Nota -->
+    <string name="add_Nota">Agregar Notas</string>
+    <string name="uid_Usuario">Uid del Usuario</string>
+    <string name="correo_usuario">Correo De Usuario</string>
+    <string name="fecha_hora_actual">Fecha y Hora actual</string>
+    <string name="Titulo">Titulo</string>
+    <string name="Descripcion">Descripcion</string>
+    <string name="btnCalendario">Calendario</string>
+    <string name="btnGuardar">Guardar Nota</string>
+    <string name="fecha">00/00/0000</string>
+    <string name="Estado">No finalizado</string>
+
+    <!-- Ver Nota -->
+    <string name="verNota">Notas</string>
+
+
+    <!-- RecyclerView -->
+    <string name="tituloNota">Titulo de la Nota</string>
+    <string name="descripcionNota">Descripcion de la Nota</string>
+
+    <!-- Filtrar Nota -->
+    <string name="buscar">Buscar Nota</string>
+
+    <!-- Mi Perfil -->
+    <string name="restablecer">Restablecer Contraseña</string>
+    <string name="ingresecorreo">Por favor ingrese su correo</string>
+
+
+
+</resources>

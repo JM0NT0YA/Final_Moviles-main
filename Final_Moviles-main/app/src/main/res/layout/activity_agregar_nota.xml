@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Agregar_Nota">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/titulo_VerNota"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5sp"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/platypiregular"
+                android:text="@string/add_Nota"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/btnVerMenu"
+                android:layout_width="36dp"
+                android:layout_height="36sp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10sp"
+                android:src="@drawable/menu" />
+
+            <ImageButton
+                android:id="@+id/btnBorrar"
+                android:layout_width="36dp"
+                android:layout_height="36sp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="72dp"
+                android:layout_marginTop="10sp"
+                android:layout_marginEnd="21dp"
+                android:layout_toStartOf="@+id/btnVerNotas"
+                android:layout_toEndOf="@+id/titulo_VerNota"
+                android:backgroundTint="@color/red"
+                android:src="@drawable/delete" />
+
+
+        </RelativeLayout>
+
+        <!-- Titulo -->
+        <EditText
+            android:id="@+id/titulo"
+            android:hint="@string/Titulo"
+            android:inputType="textCapWords"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/platypiregular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <!-- Descripcion -->
+        <EditText
+            android:id="@+id/descripcion"
+            android:hint="@string/Descripcion"
+            android:inputType="textLongMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/platypiregular"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:minHeight="150dp"
+            android:gravity="start"/>
+
+        <!-- Fecha -->
+        <EditText
+            android:id="@+id/fecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/platypiregular"
+            android:hint="Fecha (YYYY-MM-DD)"
+            android:inputType="date"
+            android:imeOptions="actionDone"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom">
+
+            <!-- Boton de Guardar -->
+            <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+                android:id="@+id/btnGuardar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/platypiregular"
+                android:text="@string/btnGuardar"
+                android:drawableEnd="@drawable/save"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="@color/md_theme_light_primary"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"/>
+            <!-- Espacio entre los botones -->
+
+            <!-- Boton de Volver -->
+        </LinearLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="27dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/btnVolver"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/md_theme_light_primary"
+            android:drawableBottom="@drawable/back"
+            android:gravity="center" />
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/btnListarNota"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/md_theme_light_primary"
+            android:drawableBottom="@drawable/list_note" />
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/btnbuscar"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/md_theme_light_primary"
+            android:drawableBottom="@drawable/search" />
+
+    </LinearLayout>
+
+</RelativeLayout>

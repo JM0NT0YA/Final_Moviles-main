@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "286229350695",
+    "project_id": "proyecto-final-99385",
+    "storage_bucket": "proyecto-final-99385.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286229350695:android:f8ef1e92982fd7fa0a8102",
+        "android_client_info": {
+          "package_name": "com.maga.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjkaHGmRnG5r_atiL-ivPMbOPuQ_LWxb8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
